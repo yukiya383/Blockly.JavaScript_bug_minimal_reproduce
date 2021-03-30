@@ -1,0 +1,25 @@
+{
+  "name": "with-typescript",
+  "version": "1.0.0",
+  "scripts": {
+    "dev": "next",
+    "build": "next build && next export",
+    "doc": "typedoc .",
+    "start": "next start",
+    "type-check": "tsc"
+  },
+  "dependencies": {
+    "@types/react": "^17.0.3",
+    "@types/react-dom": "^17.0.3",
+    "blockly": "^5.20210325.0",
+    "next": "^10.1.2",
+    "raw-loader": "^4.0.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  },
+  "devDependencies": {
+    "@types/node": "^14.14.35",
+    "typescript": "4.2"
+  },
+  "license": "MIT"
+}
