@@ -21,7 +21,6 @@ Blockly.defineBlocksWithJsonArray([
   sampleBlock
 ]);
 
-// This is an expected behavior, but the error message seems wrong
-JavaScript['SampleBlock'] = sampleBlockCode;
+JavaScript.registerCodeGeneratorForBlock('SampleBlock', sampleBlockCode);
 
 }/* initialization end */
