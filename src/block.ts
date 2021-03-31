@@ -7,8 +7,7 @@ export const sampleBlock = {
   type: "SampleBlock",
   message0: "hoge",
   colour: "#33cc33",
-  tooltip: "実行できないサンプル",
-  extensions: ["type_creation_extension"],
+  tooltip: "A sample which can use but can't pass type check.",
 };
 
 const sampleBlockCode = (block:Blockly.Block)=>{

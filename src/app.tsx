@@ -2,6 +2,7 @@ import { useEffect } from 'react';
 import Blockly from "blockly";
 import 'blockly/javascript';
 import toolbox from './toolbox.xml';
+import './block';
 
 function App() {
   useEffect(()=>{
