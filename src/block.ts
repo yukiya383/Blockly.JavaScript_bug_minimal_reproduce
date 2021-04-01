@@ -21,6 +21,6 @@ Blockly.defineBlocksWithJsonArray([
   sampleBlock
 ]);
 
-JavaScript.registerCodeGeneratorForBlock('SampleBlock', sampleBlockCode);
+JavaScript['SampleBlock'] = sampleBlockCode;
 
 }/* initialization end */
