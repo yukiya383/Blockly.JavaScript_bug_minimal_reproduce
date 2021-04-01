@@ -44,3 +44,7 @@ to export **an instance of** Blockly.Generator instead of *typeof* Blockly.Gener
         ```
         which simply assign given function to `this[blockname]`.
     - [My fork of blockly](https://github.com/yukiya383/blockly/tree/develop)includes these changes.
+
+## Fixed sample
+I made a [plugin](https://github.com/yukiya383/blockly-plugin-typed-codegenerator) which overrides declaration of module "blockly/javascript".
+Branch "fixed_sample" uses this plugin, and works properly without error.
